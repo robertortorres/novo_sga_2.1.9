@@ -11,12 +11,14 @@ Este ambiente contém múltiplos serviços integrados via Docker Compose para fa
 sudo docker compose up -d
 ```
 Acessar o banco de dados MySQL como root:
-
+```bash
 docker-compose exec mysqldb sh -c  'mysql -uroot -p'
+```
 Dar permissão de acesso para o usuário da aplicação:
-
+```bash
 GRANT ALL ON novosga2.* TO 'novosga'@'%' IDENTIFIED BY 'MySQL_App_P4ssW0rd';
 quit
+```
 ---
 
 ## 🌐 Serviços disponíveis
