@@ -71,7 +71,7 @@ docker exec -it novosga crontab -l
 
 ```plaintext
 .
-├── docker-compose-com-phpmyadmin-painel-triagem.yml
+├── docker-compose.yml
 ├── add_novosga_cron.sh
 └── README.md
 ```
